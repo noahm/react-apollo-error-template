@@ -1,7 +1,7 @@
 import React from "react";
 import { render } from "react-dom";
 import { ApolloClient } from "apollo-client";
-import { ApolloProvider } from "@apollo/react-hooks";
+import { ApolloProvider } from "@apollo/react-hoc";
 import { InMemoryCache } from "apollo-cache-inmemory";
 
 import { link } from "./graphql/link";
